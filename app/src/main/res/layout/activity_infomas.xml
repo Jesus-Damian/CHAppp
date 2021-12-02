@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".infomas"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imageViewate2"
+        android:layout_width="271dp"
+        android:layout_height="246dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/contra" />
+    <TextView
+    android:id="@+id/Salir"
+    android:layout_width="209dp"
+    android:layout_height="44dp"
+    android:text="Información adicional"
+    android:textColor="#757272"
+    app:autoSizeTextType="uniform"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+
+    tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/textViewatee"
+        android:layout_width="209dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="568dp"
+        android:gravity="center"
+        android:onClick="Exi"
+        android:text="Salir"
+        android:textColor="#757272"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textViewAte8"
+        android:layout_width="356dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="220dp"
+        android:text="🚩🚩Atención al cliente:"
+        android:textColor="#757272"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.29"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView3ate8"
+        android:layout_width="356dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="280dp"
+        android:text="Col. PROVIDENCIA- Calle San Benito #326 Tel. 771 177 5440"
+        android:textColor="#757272"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.29"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView3ateate"
+        android:layout_width="233dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="356dp"
+        android:text="🚩Horarios🚩"
+        android:textColor="#757272"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewate3a"
+        android:layout_width="233dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="476dp"
+        android:text="Sabaado de 9:00 a 14:00"
+        android:textColor="#757272"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView3ate"
+        android:layout_width="233dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="412dp"
+        android:text="Lunes a Viernes de 9:00 a 18:00"
+        android:textColor="#757272"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/menu4"
+        android:layout_width="83dp"
+        android:layout_height="78dp"
+        android:layout_marginEnd="15dp"
+        android:background="@drawable/imgbtn"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.627"
+        app:srcCompat="@drawable/mas"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.938" />
+
+    <ImageButton
+        android:id="@+id/menu3"
+        android:layout_width="83dp"
+        android:layout_height="78dp"
+        android:layout_marginEnd="116dp"
+        android:background="@drawable/imgbtn"
+        android:onClick="Pag"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.938"
+        app:srcCompat="@drawable/pagos" />
+
+    <ImageButton
+        android:id="@+id/menu2"
+        android:layout_width="83dp"
+        android:layout_height="78dp"
+        android:layout_marginStart="116dp"
+        android:background="@drawable/imgbtn"
+        android:onClick="Rep"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.938"
+        app:srcCompat="@drawable/pag"
+        tools:ignore="MissingConstraints" />
+
+    <ImageButton
+        android:id="@+id/menu1"
+        android:layout_width="83dp"
+        android:layout_height="78dp"
+        android:layout_marginStart="16dp"
+        android:background="@drawable/imgbtn"
+        android:onClick="Hom"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.938"
+        app:srcCompat="@drawable/homeee" />
+</android.support.constraint.ConstraintLayout>

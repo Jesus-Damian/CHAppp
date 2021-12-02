@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Usuarios">
+
+    <ImageButton
+        android:id="@+id/imgB3UserAdm3"
+        android:layout_width="82dp"
+        android:layout_height="74dp"
+        android:layout_marginEnd="44dp"
+        android:layout_marginBottom="28dp"
+        android:background="@drawable/imgbtn"
+        android:onClick="Main"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/exitt" />
+
+    <ImageButton
+        android:id="@+id/imgB2UserAdm2"
+        android:layout_width="82dp"
+        android:layout_height="74dp"
+        android:layout_marginBottom="28dp"
+        android:background="@drawable/imgbtn"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/imgB3UserAdm3"
+        app:layout_constraintStart_toEndOf="@+id/imgB1UserAdm1"
+        app:srcCompat="@drawable/user" />
+
+    <ImageButton
+        android:id="@+id/imgB1UserAdm1"
+        android:layout_width="82dp"
+        android:layout_height="74dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginBottom="28dp"
+        android:background="@drawable/imgbtn"
+        android:onClick="Reportes"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/homme" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="132dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="32dp"
+        android:gravity="center"
+        android:text="Usuarios"
+        android:textSize="22dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:srcCompat="@drawable/log" />
+</android.support.constraint.ConstraintLayout>
